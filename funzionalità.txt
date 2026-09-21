@@ -1,0 +1,23 @@
+ELENCO FUNZIONALITà
+
+- Monitoraggio dei social:
+    scegliere il limite di utilizzo
+    visualizzare il tempo trascorso sulle app scelte
+    visualizzare il numero di aperture
+    visualizzare il numero di sessioni e di scroll
+    poter analizzare la velocità e la durata dello scrolling
+    visualizzare le sessioni più lunghe e ripetitive
+    visualizzare il comportamento «apro → scrollo → chiudo → riapro».
+    visualizzare quanti chilometri hai percorso con il pollice.
+    
+- Rilevamenti AI:
+    poter attivare l'analisi AI che distingue l'uso attivo da quello passivo con eventuale notifica
+    poter ricevere un resoconto a fine giornata scritto dall'AI con tutte le statistiche di utilizzo
+
+-
+  
+-Ricevere i dati sull'utilizzo con report messi a confronto con la media degli utenti
+-Ricevere i dati sull'utilizzo con report messi a confronto con i propri amici
+
+- Stato emotivo del cane:
+  Il cane reagisce all'utilizzo dei social dell'utente. Con un uso consapevole si guadagnano gli ossi così da garantire i pasti al tuo cucciolo, altrimenti con un uso fuori dai limiti impostati non avrai cibo da dargli.
