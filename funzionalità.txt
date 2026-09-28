@@ -1,23 +1,66 @@
-ELENCO FUNZIONALITà
+1. Requisiti funzionali: "Cosa deve fare l'app?"
+A. Account e onboarding
+	-RF1 L'utente deve poter adottare un cucciolo scegliendo razza, colore del mantello e nome.
+	-RF2 L'utente deve poter impostare il limite giornaliero di utilizzo.
+	-RF3 L'utente deve poter scegliere quali app social monitorare tra quelle installate.
+	-RF4 L'utente deve poter impostare obiettivi personali opzionali (es. "niente TikTok dopo mezzanotte").
+	-RF5 L'utente deve poter concedere i permessi con una spiegazione trasparente.
+	-RF6 L'utente deve poter fare il "patto con il cucciolo" (schermata emotiva iniziale).
+	-RF7 L'utente deve poter registrarsi, accedere e modificare il proprio profilo (necessario per amici e classifiche).
+B. Monitoraggio dei social
+	-RF8 Visualizzare il tempo trascorso sulle app scelte.
+	-RF9 Visualizzare il numero di aperture.
+	-RF10 Visualizzare il numero di sessioni e di scroll.
+	-RF11 Analizzare velocità e durata dello scrolling.
+	-RF12 Visualizzare le sessioni più lunghe e ripetitive.
+	-RF13 Visualizzare il comportamento "apro → scrollo → chiudo → riapro".
+	-RF14 Visualizzare quanti chilometri si sono "percorsi con il pollice", con paragoni comprensibili (es. "1,8 km ≈ da casa alla stazione").
+	-RF15 Visualizzare gli orari di maggiore utilizzo.
+C. Intelligenza artificiale
+	-RF16 Attivare l'analisi AI che distingue uso attivo da scrolling passivo, con eventuale notifica.
+	-RF17 Ricevere a fine giornata un resoconto scritto dall'AI con le statistiche (Pawse Report).
+	-RF18 Il report deve includere anche i momenti positivi e un suggerimento concreto per il giorno dopo.
+	-RF19 L'AI deve riconoscere le abitudini personali dopo alcuni giorni (fasce orarie critiche, quando lo scrolling accelera, ecc.).
+	-RF20 L'AI deve confrontare ogni giorno il comportamento con gli obiettivi dell'utente.
+D. Il cucciolo
+	-RF21 Il cane deve reagire all'uso dei social (stato emotivo).
+	-RF22 Con un uso consapevole l'utente guadagna ossi per dare da mangiare al cucciolo; se sfora i limiti non ha cibo da dargli.
+	-RF23 Il cane deve avere stati visibili: affetto/fiducia, umore, energia, cura.
+	-RF24 Il cane deve inviare notifiche in prima persona, mai aggressive.
+	-RF25 Il cane deve poter abbandonare l'utente dopo giorni ripetuti di sforamento, con avvisi progressivi (giorno 3, 5, 7) e una scena finale.
+	-RF26 L'utente deve poter adottare un nuovo cucciolo o riconquistare quello perso.
+E. Interventi e blocchi
+	-RF27  L'app deve interrompere lo scrolling quando rileva un loop e chiedere una scelta consapevole ([Continua] / [Esci]).
+	-RF28 Chi sceglie "Esci" guadagna punti affetto.
+	-RF29 L'utente deve poter bloccare solo sezioni specifiche delle app (Shorts, Reels, feed) e non l'intera app.
+	-RF30 L'utente deve poter impostare orari personalizzati per i blocchi.
+F. Confronto e social
+	-RF31 Ricevere i report a confronto con la media degli utenti.
+	-RF32 Ricevere i report a confronto con gli amici.
+	-RF33 Sfide reciproche e classifica tra amici.
 
-- Monitoraggio dei social:
-    scegliere il limite di utilizzo
-    visualizzare il tempo trascorso sulle app scelte
-    visualizzare il numero di aperture
-    visualizzare il numero di sessioni e di scroll
-    poter analizzare la velocità e la durata dello scrolling
-    visualizzare le sessioni più lunghe e ripetitive
-    visualizzare il comportamento «apro → scrollo → chiudo → riapro».
-    visualizzare quanti chilometri hai percorso con il pollice.
-    
-- Rilevamenti AI:
-    poter attivare l'analisi AI che distingue l'uso attivo da quello passivo con eventuale notifica
-    poter ricevere un resoconto a fine giornata scritto dall'AI con tutte le statistiche di utilizzo
+2. Requisiti non funzionali: "Come deve funzionare l'app?"
+	-RNF1 Usabilità: interfaccia semplice, tono dolce e mai giudicante.
+	-RNF2 Prestazioni: schermate caricate in meno di 2 secondi.
+	-RNF3 Basso consumo: il monitoraggio in background non deve scaricare la batteria né rallentare il telefono. È fondamentale, perché l'app gira sempre.
+	-RNF4 Sicurezza: dati protetti e cifrati, in locale e in trasmissione.
+	-RNF5 Privacy by design: elaborazione locale quando possibile e all'AI solo metriche aggregate.
+	-RNF6 Affidabilità: il servizio di monitoraggio deve restare attivo anche se il sistema chiude le app in background.
+	-RNF7 Disponibilità: server per confronti, classifiche e amici attivi 24/7.
+	-RNF8 Scalabilità: supportare la crescita degli utenti, ad esempio 10.000 contemporanei.
+	-RNF9 Compatibilità: prima fase su Android, iOS in una seconda fase con funzioni ridotte.
+	-RNF10 Reattività: gli interventi in tempo reale (es. i 45 swipe in 2 minuti) devono scattare quasi subito.
+	-RNF11 Accuratezza: la distanza in km è una stima, e l'app deve dirlo chiaramente.
+	-RNF12 Accessibilità: testi leggibili e contrasti adeguati.
+	-RNF13 Manutenibilità: aggiungere facilmente nuove razze, accessori e app monitorabili.
 
--
-  
--Ricevere i dati sull'utilizzo con report messi a confronto con la media degli utenti
--Ricevere i dati sull'utilizzo con report messi a confronto con i propri amici
-
-- Stato emotivo del cane:
-  Il cane reagisce all'utilizzo dei social dell'utente. Con un uso consapevole si guadagnano gli ossi così da garantire i pasti al tuo cucciolo, altrimenti con un uso fuori dai limiti impostati non avrai cibo da dargli.
+3. Requisiti di dominio: "Quali regole impone il settore?"
+	-RD1 GDPR: i dati comportamentali sono dati personali. Servono consenso esplicito, minimizzazione, e diritto di accesso, esportazione e cancellazione.
+	-RD2 Nessun contenuto raccolto: mai screenshot, video o messaggi. Si analizza solo come si scrolla, non cosa si guarda.
+	-RD3 Policy Google Play sui servizi di accessibilità: l'uso di questi permessi va dichiarato e spiegato con una schermata chiara all'utente, altrimenti l'app può essere rifiutata.
+	-RD4 Tutela dei minori: probabile pubblico giovane, quindi serve un'età minima o il consenso dei genitori.
+	-RD5 Nessuna promessa medica: Pawse aiuta a usare meglio i social, non cura la dipendenza. Va scritto nei termini d'uso.
+	-RD6 Etica del design: niente senso di colpa aggressivo o dark pattern. L'app può interrompere lo scroll ma non deve bloccare con la forza.
+	-RD7 Regola uso attivo/passivo: solo lo scrolling passivo e lo sforamento del limite penalizzano il cane. Rispondere a un amico non costa nulla.
+	-RD8 Regola di abbandono: il cane se ne va dopo 8 giorni di sforamento o uso intensivo. Un giorno sano fa risalire parzialmente la fiducia.
+	-RD9 Regola del cibo: gli ossi si guadagnano solo restando nei limiti.
