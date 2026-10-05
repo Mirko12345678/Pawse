@@ -1,0 +1,271 @@
+TEMPLATE USER STORY
+
+Come [ruolo], voglio [azione], in modo da [beneficio].
+
+Priorità con metodo MoSCoW:
+M = Must (indispensabile)
+S = Should (importante)
+C = Could (facoltativa)
+
+1. REQUISITI FUNZIONALI
+
+A - ACCOUNT E ONBOARDING
+
+RF1 - Come utente, voglio adottare un cucciolo scegliendo razza, colore e nome,
+      in modo da creare un legame personale con lui.
+      Priorità: M
+
+RF2 - Come utente, voglio impostare un limite giornaliero di utilizzo,
+      in modo da avere un obiettivo chiaro da rispettare.
+      Priorità: M
+
+RF3 - Come utente, voglio scegliere quali app social monitorare tra quelle installate,
+      in modo da controllare solo ciò che mi interessa.
+      Priorità: M
+
+RF4 - Come utente, voglio impostare obiettivi personali
+      (es. "niente TikTok dopo mezzanotte"),
+      in modo da personalizzare il mio percorso.
+      Priorità: S
+
+RF5 - Come utente, voglio concedere i permessi con una spiegazione trasparente,
+      in modo da sapere cosa l'app può e non può vedere.
+      Priorità: M
+
+RF6 - Come utente, voglio fare il "patto con il cucciolo",
+      in modo da sentirmi coinvolto emotivamente fin dall'inizio.
+      Priorità: C
+
+RF7 - Come utente, voglio registrarmi, accedere e modificare il mio profilo,
+      in modo da poter usare amici e classifiche.
+      Priorità: M
+
+B - MONITORAGGIO DEI SOCIAL
+
+RF8 - Come utente, voglio vedere il tempo trascorso sulle app scelte,
+      in modo da capire quanto le uso davvero.
+      Priorità: M
+
+RF9 - Come utente, voglio vedere il numero di aperture,
+      in modo da accorgermi di quanto spesso le riapro.
+      Priorità: M
+
+RF10 - Come utente, voglio vedere il numero di sessioni e di scroll,
+       in modo da avere un quadro completo del mio uso.
+       Priorità: M
+
+RF11 - Come utente, voglio analizzare velocità e durata dello scrolling,
+       in modo da capire quando divento più compulsivo.
+       Priorità: S
+
+RF12 - Come utente, voglio vedere le mie sessioni più lunghe e ripetitive,
+       in modo da individuare i momenti critici.
+       Priorità: S
+
+RF13 - Come utente, voglio vedere il comportamento
+       "apro → scrollo → chiudo → riapro",
+       in modo da riconoscere il loop.
+       Priorità: S
+
+RF14 - Come utente, voglio vedere quanti chilometri ho percorso con il pollice,
+       con paragoni comprensibili, in modo da rendere tangibile il mio scrolling.
+       Priorità: S
+
+RF15 - Come utente, voglio vedere gli orari di maggiore utilizzo,
+       in modo da scoprire quando sono più a rischio.
+       Priorità: S
+
+C - INTELLIGENZA ARTIFICIALE
+
+RF16 - Come utente, voglio attivare l'analisi AI che distingue uso attivo
+       da scrolling passivo, con eventuale notifica,
+       in modo da non essere penalizzato quando rispondo a un amico.
+       Priorità: M
+
+RF17 - Come utente, voglio ricevere a fine giornata un resoconto scritto
+       dall'AI (Pawse Report), in modo da capire com'è andata la giornata.
+       Priorità: M
+
+RF18 - Come utente, voglio che il report includa i momenti positivi
+       e un suggerimento per domani,
+       in modo da sentirmi incoraggiato e non giudicato.
+       Priorità: S
+
+RF19 - Come utente, voglio che l'AI riconosca le mie abitudini dopo alcuni giorni,
+       in modo da scoprire pattern che non noto da solo.
+       Priorità: S
+
+RF20 - Come utente, voglio che l'AI confronti ogni giorno il mio comportamento
+       con i miei obiettivi, in modo da sapere se sto migliorando.
+       Priorità: S
+
+D - IL CUCCIOLO
+
+RF21 - Come utente, voglio che il cane reagisca al mio uso dei social,
+       in modo da vedere subito le conseguenze del mio comportamento.
+       Priorità: M
+
+RF22 - Come utente, voglio guadagnare ossi con un uso consapevole
+       per dargli da mangiare,
+       in modo da essere motivato a rispettare i limiti.
+       Priorità: M
+
+RF23 - Come utente, voglio vedere gli stati del cane
+       (affetto, umore, energia, cura), in modo da capire come sta.
+       Priorità: M
+
+RF24 - Come utente, voglio ricevere notifiche dal cane in prima persona
+       e mai aggressive, in modo da essere richiamato con dolcezza.
+       Priorità: S
+
+RF25 - Come utente, voglio essere avvisato progressivamente
+       (giorni 3, 5, 7) prima che il cane se ne vada,
+       in modo da avere il tempo di cambiare abitudini.
+       Priorità: S
+
+RF26 - Come utente, voglio adottare un nuovo cucciolo
+       o riconquistare quello perso,
+       in modo da poter ricominciare dopo un abbandono.
+       Priorità: S
+
+E - INTERVENTI E BLOCCHI
+
+RF27 - Come utente, voglio che l'app interrompa lo scrolling quando rileva un loop
+       e mi chieda [Continua] / [Esci],
+       in modo da fare una scelta consapevole.
+       Priorità: M
+
+RF28 - Come utente, voglio guadagnare punti affetto quando scelgo "Esci",
+       in modo da essere premiato per aver smesso.
+       Priorità: S
+
+RF29 - Come utente, voglio bloccare solo sezioni specifiche delle app
+       (Shorts, Reels, feed),
+       in modo da continuare a usare le parti utili.
+       Priorità: S
+
+RF30 - Come utente, voglio impostare orari personalizzati per i blocchi,
+       in modo da adattarli alla mia routine.
+       Priorità: C
+
+F - CONFRONTO E SOCIAL
+
+RF31 - Come utente, voglio confrontare i miei report con la media degli utenti,
+       in modo da capire dove mi colloco.
+       Priorità: C
+
+RF32 - Come utente, voglio confrontare i miei report con quelli dei miei amici,
+       in modo da motivarmi insieme a loro.
+       Priorità: C
+
+RF33 - Come utente, voglio lanciare sfide e vedere una classifica con gli amici,
+       in modo da rendere il miglioramento un gioco.
+       Priorità: C
+
+
+2. REQUISITI NON FUNZIONALI
+
+RNF1 - Come utente, voglio un'interfaccia semplice con tono dolce e non giudicante,
+       in modo da non sentirmi in colpa usando l'app.
+       Categoria: Usabilità
+
+RNF2 - Come utente, voglio che le schermate si carichino in meno di 2 secondi,
+       in modo da non perdere tempo.
+       Categoria: Prestazioni
+
+RNF3 - Come utente, voglio che il monitoraggio non scarichi la batteria
+       né rallenti il telefono,
+       in modo da non accorgermi che l'app è sempre attiva.
+       Categoria: Consumo
+
+RNF4 - Come utente, voglio che i miei dati siano protetti e cifrati,
+       in locale e in trasmissione, in modo da sentirmi al sicuro.
+       Categoria: Sicurezza
+
+RNF5 - Come utente, voglio che i dati siano elaborati localmente
+       e all'AI arrivino solo metriche aggregate,
+       in modo da proteggere la mia privacy.
+       Categoria: Privacy
+
+RNF6 - Come utente, voglio che il monitoraggio resti attivo
+       anche se il sistema chiude le app in background,
+       in modo da avere dati completi.
+       Categoria: Affidabilità
+
+RNF7 - Come utente, voglio che i server per confronti, classifiche e amici
+       siano attivi 24/7, in modo da usarli in qualsiasi momento.
+       Categoria: Disponibilità
+
+RNF8 - Come gestore dell'app, voglio che il sistema regga la crescita
+       (es. 10.000 utenti contemporanei), in modo da non avere disservizi.
+       Categoria: Scalabilità
+
+RNF9 - Come gestore dell'app, voglio lanciare prima su Android
+       e poi su iOS con funzioni ridotte,
+       in modo da partire dove l'idea è realizzabile per intero.
+       Categoria: Compatibilità
+
+RNF10 - Come utente, voglio che gli interventi in tempo reale scattino quasi subito
+        (es. 45 swipe in 2 minuti),
+        in modo da fermarmi prima di entrare nel loop.
+        Categoria: Reattività
+
+RNF11 - Come utente, voglio che l'app dichiari che i km sono una stima,
+        in modo da non fraintendere il dato.
+        Categoria: Accuratezza
+
+RNF12 - Come utente, voglio testi leggibili e contrasti adeguati,
+        in modo da poter usare l'app anche con difficoltà visive.
+        Categoria: Accessibilità
+
+RNF13 - Come sviluppatore, voglio aggiungere facilmente nuove razze,
+        accessori e app monitorabili,
+        in modo da far crescere il prodotto senza riscriverlo.
+        Categoria: Manutenibilità
+
+
+3. REQUISITI DI DOMINIO
+
+RD1 - Come utente, voglio dare un consenso esplicito e poter accedere,
+     esportare e cancellare i miei dati,
+     in modo da avere il controllo su di essi.
+     Criterio di conformità: GDPR
+
+RD2 - Come utente, voglio che l'app non raccolga mai screenshot,
+     video o messaggi,
+     in modo da sapere che analizza solo come scrollo e non cosa guardo.
+     Criterio di conformità: Principio guida di Pawse
+
+RD3 - Come gestore dell'app, voglio dichiarare e spiegare l'uso
+     dei servizi di accessibilità con una schermata chiara,
+     in modo da essere approvato su Google Play.
+     Criterio di conformità: Policy Google Play
+
+RD4 - Come gestore dell'app, voglio richiedere un'età minima
+     o il consenso dei genitori,
+     in modo da tutelare i minori.
+     Criterio di conformità: Tutela dei minori
+
+RD5 - Come gestore dell'app, voglio dichiarare nei termini d'uso
+     che Pawse non cura la dipendenza,
+     in modo da non fare promesse mediche.
+     Criterio di conformità: Termini d'uso
+
+RD6 - Come utente, voglio che l'app non usi senso di colpa aggressivo
+     né blocchi con la forza,
+     in modo da restare libero di scegliere.
+     Criterio di conformità: Etica del design
+
+RD7 - Come utente, voglio che solo lo scrolling passivo
+     e lo sforamento del limite penalizzino il cane,
+     in modo da non essere punito quando rispondo a un amico.
+     Criterio di conformità: Regola uso attivo/passivo
+
+RD8 - Come utente, voglio che il cane se ne vada solo dopo 8 giorni
+     di sforamento e che un giorno sano faccia risalire la fiducia,
+     in modo da avere una regola equa.
+     Criterio di conformità: Regola di abbandono
+
+RD9 - Come utente, voglio guadagnare ossi solo restando nei limiti,
+     in modo da avere un incentivo chiaro.
+     Criterio di conformità:
