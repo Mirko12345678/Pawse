@@ -92,7 +92,6 @@ C = Could (facoltativa)
 		- RF33 Come utente, voglio lanciare sfide e vedere una classifica con gli amici, in modo da rendere il miglioramento un gioco.
        		Priorità: C
 
-
 2. REQUISITI NON FUNZIONALI:
 
 		- RNF1 Usabilità: interfaccia semplice, tono dolce e mai giudicante.
@@ -108,9 +107,8 @@ C = Could (facoltativa)
 		- RNF11 Accuratezza: la distanza in km è una stima, e l'app deve dirlo chiaramente.
 		- RNF12 Accessibilità: testi leggibili e contrasti adeguati.
 		- RNF13 Manutenibilità: aggiungere facilmente nuove razze, accessori e app monitorabili.
-   
 
-4. REQUISITI DI DOMINIO:
+3. REQUISITI DI DOMINIO:
 
 		- RD1 GDPR: i dati comportamentali sono dati personali. Servono consenso esplicito, minimizzazione, e diritto di accesso, esportazione e cancellazione.
 		- RD2 Nessun contenuto raccolto: mai screenshot, video o messaggi. Si analizza solo come si scrolla, non cosa si guarda.
@@ -121,3 +119,44 @@ C = Could (facoltativa)
 		- RD7 Regola uso attivo/passivo: solo lo scrolling passivo e lo sforamento del limite penalizzano il cane. Rispondere a un amico non costa nulla.
 		- RD8 Regola di abbandono: il cane se ne va dopo 8 giorni di sforamento o uso intensivo. Un giorno sano fa risalire parzialmente la fiducia.
 		- RD9 Regola del cibo: gli ossi si guadagnano solo restando nei limiti.
+
+
+SWOT ANALYSIS:
+
+1. PUNTI DI FORZA (STRENGTHS)
+
+- Motivazione emotiva: il cucciolo virtuale crea un legame affettivo e trasforma la riduzione dell'uso dei social in una responsabilità verso qualcun altro, più coinvolgente di un semplice contatore.
+- Equità della logica: distinguere uso attivo (rispondere a un amico) da scrolling passivo evita di punire comunicazioni legittime, il che rende il sistema credibile.
+- Tono non giudicante: le notifiche in prima persona e dolci, unite al divieto di dark pattern (RD6), riducono il rischio di abbandono per frustrazione.
+- Privacy by design: elaborazione locale e invio all'AI solo di metriche aggregate (RNF5) e divieto di raccolta di contenuti (RD2) sono un vantaggio competitivo forte in un mercato sensibile.
+- Specifiche molto dettagliate: user story, priorità MoSCoW e regole di dominio chiare offrono una base solida per lo sviluppo e riducono l'ambiguità.
+- Metriche tangibili: la conversione dello scrolling in chilometri percorsi con il pollice è un'idea memorabile e condivisibile.
+
+2. PUNTI DI DEBOLEZZA (WEAKNESSES)
+
+- Dipendenza dai permessi di accessibilità: l'intera architettura di monitoraggio poggia su un permesso sensibile che Google Play controlla con severità (RD3), con rischio concreto di rifiuto.
+- Complessità tecnica elevata: monitoraggio in background affidabile, bassissimo consumo di batteria e reattività in tempo reale (RNF3, RNF6, RNF10) sono obiettivi in tensione tra loro e difficili da garantire insieme.
+- Ambito troppo ampio per un MVP: con circa quindici requisiti Must e funzioni come classifiche, AI predittiva e sfide tra amici, il rischio di ritardi è alto.
+- Modello di business non definito: il documento non dice come l'app generi ricavi, né se le funzioni social e il server 24/7 (RNF7) siano sostenibili economicamente.
+- Gestione dei minori aperta: RD4 lascia irrisolta la scelta tra età minima e consenso dei genitori, decisione che incide su design, legale e pubblico.
+- Precisione delle metriche: la stima dei chilometri e l'analisi "attivo vs passivo" sono difficili da calibrare senza accesso ai contenuti, con il rischio di risultati percepiti come arbitrari.
+- Tensione etica interna: il cane che "se ne va" è una leva emotiva forte che potrebbe sfiorare il senso di colpa aggressivo che RD6 vuole evitare.
+
+3. OPPORTUNITÀ (OPPORTUNITIES)
+
+- Mercato del benessere digitale in crescita: cresce la consapevolezza dell'uso eccessivo dei social, soprattutto tra giovani e genitori.
+- Nostalgia e gamification: l'eredità dei Tamagotchi attrae utenti giovani, e un formato emotivo può differenziarsi dalle app di produttività focalizzate sui numeri.
+- Crescita virale tramite amicizie e sfide: le classifiche e i confronti (RF32, RF33) possono generare passaparola naturale, se implementati dopo il consolidamento del core.
+- Canali B2B ed educativi: scuole, programmi di benessere aziendale e psicologi potrebbero adottare o consigliare l'app, con un possibile modello di licenza.
+- Espansione per fasi: partire da Android in Italia e poi estendere a iOS e ad altri mercati europei offre tempo per validare il prodotto.
+- Monetizzazione freemium: razze, accessori e personalizzazioni del cucciolo sono elementi naturali per acquisti in-app non invasivi, senza toccare la logica di salute.
+
+4. MINACCE (THREATS)
+
+- Concorrenza delle funzioni native: Screen Time (iOS) e Digital Wellbeing (Android) offrono già gratuitamente monitoraggio e limiti, riducendo la percezione di bisogno.
+- Rischio di rifiuto da parte degli store: una policy più restrittiva sui servizi di accessibilità potrebbe bloccare il cuore del prodotto.
+- Limiti di iOS: le API di Apple per il controllo dell'uso delle app sono più restrittive, quindi la versione iOS "con funzioni ridotte" potrebbe risultare molto diversa e deludente.
+- Normativa privacy e minori: GDPR, Codice privacy italiano (consenso digitale a 14 anni) e il DSA impongono vincoli severi su dati comportamentali e pubblico giovane.
+- Percezione di sorveglianza: se gli utenti percepiscono l'app come un controllo invasivo sul telefono, possono disinstallarla o recensirla negativamente.
+- Abbandono dopo la "morte" del cane: la regola degli 8 giorni può causare frustrazione e churn, anche se l'opzione di adottarne uno nuovo (RF26) mitiga il problema.
+- Dipendenza da terzi: cambiamenti nelle app social o nelle loro API possono rompere le funzioni di rilevamento in qualsiasi momento.
